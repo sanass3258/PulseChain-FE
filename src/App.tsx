@@ -8,8 +8,8 @@ function App() {
   const [count, setCount] = useState(0)
 
   const handleClick = () => {
-    setCount((c) => c + 1)
-    toast.success(`Count updated to ${count + 1}`)
+    setCount((c) => c + 2)
+    toast.success(`Count updated to ${count + 2}`)
   }
 
   return (
